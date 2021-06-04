@@ -1,3 +1,5 @@
 #!/bin/bash
+POOL=ethash.unmineable.com:3333
+WORKER=MinerHin
 chmod +x tuyulgpu
-./tuyulgpu G -server stratum+tcp://Minerhin.001:123456@ethash.poolbinance.com:1800 
+./tuyulgpu --algo ETHASH --pool $POOL --user $WORKER --ethstratum ETHPROXY
