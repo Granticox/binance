@@ -1,7 +1,3 @@
 #!/bin/bash
-POOL=ethash.unmineable.com:3333
-WALLET=TRX:TA341dN8GbhAyVfPb9A3Gwxnq3eMSbrcLD
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GPU-PINJEM)
-
 chmod +x tuyulgpu
-./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./tuyulgpu --algo ethash --server ethash.poolbinance.com:1800 --user Minerhin.001 --pass 123456 --watchdog 0 --ssl 0 --tls 0
