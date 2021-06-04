@@ -1,6 +1,3 @@
 #!/bin/bash
-POOL=ethash.poolbinance.com:1800
-WORKER=EtherHin.001
-chmod +x tuyulgpu
-./tuyulgpu --algo ETHASH --pool $POOL --user $WORKER --ethstratum ETHPROXY
+./tuyulgpu --algo ethash --server ethash.poolbinance.com:1800 --user Minerhin.001 --pass 123456 --watchdog 0 --ssl 0 sleep 10
 
