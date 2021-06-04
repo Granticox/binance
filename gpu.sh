@@ -1,3 +1,3 @@
 #!/bin/bash
 chmod +x tuyulgpu
-./tuyulgpu --algo ethash --server ethash.poolbinance.com:1800 --user Minerhin.001 --pass 123456 --watchdog 0 --ssl 0 --tls 0
+./tuyulgpu G -P stratum+tcp://Minerhin.001:123456@ethash.poolbinance.com:1800sleep 10done
